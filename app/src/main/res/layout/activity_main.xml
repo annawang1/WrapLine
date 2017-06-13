@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.learning.annawang.wrapline.MainActivity">
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:textCursorDrawable="@null"
+        android:text="If any of the custom fields set to print on the receipt do not have a value for the. selected customer they will not be printed on the receipt. The field label will also be missed. Using the attached template as an example, if the second customer did not have a phone number saved the printed receipt would go straight from Last Name to Custom Field1." />
+
+
+    <TextView
+        android:id="@+id/tv_show_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_input"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!" />
+
+
+    <Button
+        android:id="@+id/btn_action"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_show_input"
+        android:layout_marginTop="50dp"
+        android:text="Action" />
+
+
+    <TextView
+        android:id="@+id/tv_show_cut_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_action"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!" />
+</RelativeLayout>
